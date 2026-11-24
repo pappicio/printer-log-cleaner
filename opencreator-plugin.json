@@ -1,0 +1,12 @@
+{
+  "id": "printer-log-cleaner",
+  "name": "Printer Log Cleaner",
+  "version": "1.0.1",
+  "description": "Clears active printer, Moonraker and AFC logs only when they exceed 50 MiB. Deletes rotated log files regardless of size. Runs once per boot.",
+  "author": "pappicio",
+  "scripts": {
+    "install": "install.sh",
+    "update": "update.sh",
+    "uninstall": "uninstall.sh"
+  }
+}
